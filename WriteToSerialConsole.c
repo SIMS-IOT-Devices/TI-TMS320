@@ -13,7 +13,7 @@ void main(void)
 
     while(1)
     {
-        SCI_writeString("Hello SCI!\r\n");
+        SCI_writeString("Serial Communication Interface (SCI) Console\r\n");
         DEVICE_DELAY_US(1000000);   // 1 second
     }
 }
